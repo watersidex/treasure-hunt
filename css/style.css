@@ -1,0 +1,73 @@
+body {
+    font-family: "Raleway", sans-serif;
+    color: whitesmoke;
+}
+
+.palma {
+    background-image: url(../img/palmasea.jpg);
+    background-size: cover;
+}
+
+.main {
+    background-image: url(../img/stol.png);
+    background-size: cover;
+}
+
+.map {
+    position: relative;
+    background-image: url(../img/carta.png);
+    margin: 0 auto;
+    width: 750px;
+    height: 422px;
+    right: 100px;
+    top: 330px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 80px;
+    background-color: #73c6b6;
+    border: 3px solid #d0ece7;
+    border-radius: 30px;
+}
+
+.chest {
+    position: absolute;
+    background-image: url(../img/chest.png);
+    box-shadow: 0 0 15px lime;
+    background-size: contain;
+   /* display: none; */
+    width: 45px;
+    opacity: 0;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.p {
+    margin-bottom: 35px;
+}
+
+.butt {
+    color: #73c6b6;
+    background-color: whitesmoke;
+    padding: 10px 25px;
+    border: 5px solid #d0ece7;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 1s ease;
+}
+
+.butt:hover {
+    color: whitesmoke;
+    background-color: #73c6b6;
+    border: 5px solid #73c6b6;
+}
+
+.cm {
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
